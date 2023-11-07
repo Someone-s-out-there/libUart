@@ -1,0 +1,26 @@
+[
+  {
+    "arguments": [
+      "/home/sjoerd/opt/avr/bin/avr-gcc",
+      "-c",
+      "-mmcu=atmega328p",
+      "libUart.c"
+    ],
+    "directory": "/home/sjoerd/Documents/dev/Libs/Embedded/avr/atmega328p/libUart",
+    "file": "/home/sjoerd/Documents/dev/Libs/Embedded/avr/atmega328p/libUart/libUart.c"
+  },
+  {
+    "arguments": [
+      "/home/sjoerd/opt/avr/bin/avr-gcc",
+      "-c",
+      "-mmcu=atmega328p",
+      "-O1",
+      "-o",
+      "out.elf",
+      "main.c"
+    ],
+    "directory": "/home/sjoerd/Documents/dev/Libs/Embedded/avr/atmega328p/libUart",
+    "file": "/home/sjoerd/Documents/dev/Libs/Embedded/avr/atmega328p/libUart/main.c",
+    "output": "/home/sjoerd/Documents/dev/Libs/Embedded/avr/atmega328p/libUart/out.elf"
+  }
+]
